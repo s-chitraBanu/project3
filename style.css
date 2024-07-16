@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(bgimg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.headtab{
+    background-color:rgba(243, 4, 83, 0.541);
+    border-end-end-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.card{
+    background-color: transparent;
+    border:solid rgb(235, 234, 234) 3px;
+}
+
+.card:hover{
+    box-shadow: rgba(35, 109, 194, 0.384) 0px 3px 8px;
+}
+
+.contcon{
+    justify-content: center;
+}
